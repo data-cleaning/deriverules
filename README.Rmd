@@ -1,0 +1,30 @@
+---
+title: "Derive Data rules"
+output: github_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## Derive Data Rules
+
+An important task and skill in data cleaning is to get to "know" your data. 
+This process can take some considerable time and the resulting knowledge often is fragmented.
+Fragmented in the individual observations that are different from implicit expectations, leading to 
+anecdotical knowledge, but also fragmented across members of a data science team.
+
+An alternative approach is to develop an explicit set of data validation rules. Rules that state 
+when data is valid for your analysis. This approach is part of the `validate` package suite.
+
+Many of the `validate` related packages do not consider the process of creating the rule sets, they simply 
+assume the rules are available and can be used to check, correct or impute your data.
+
+`deriverules` is about creating data validation rule set for new data sets: it aims to help to bootstrap the rule finding process.
+
+
+## Working ideas
+
+- Use "clean" data to derive boundaries for the data, e.g. univariate.
+- Use covariance to derive linear equalities in the data.
+- Use outlier techniques to derive data validation rules.
