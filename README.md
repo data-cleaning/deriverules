@@ -1,6 +1,9 @@
 Derive Data rules
 ================
 
+WORK IN PROGRESS! DO NOT USE
+============================
+
 Derive Data Rules
 -----------------
 

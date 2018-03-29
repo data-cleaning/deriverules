@@ -7,6 +7,8 @@ output: github_document
 knitr::opts_chunk$set(echo = TRUE)
 ```
 
+# WORK IN PROGRESS! DO NOT USE
+
 ## Derive Data Rules
 
 An important task and skill in data cleaning is to get to "know" your data. 
