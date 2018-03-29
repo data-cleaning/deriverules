@@ -7,7 +7,7 @@ WORK IN PROGRESS! DO NOT USE
 Derive Data Rules
 -----------------
 
-An important task and skill in data cleaning is to get to "know" your data. This process can take some considerable time and the resulting knowledge often is fragmented. Fragmented in the individual observations that are different from implicit expectations, leading to anecdotical knowledge, but also fragmented across members of a data science team.
+An important task and skill in data cleaning is to get to "know" your data. This process takes considerable time and often the resulting knowledge is fragmented. Fragmented in the individual observations that are different from implicit expectations, leading to anecdotical knowledge, but also fragmented across members of a data science team.
 
 An alternative approach is to develop an explicit set of data validation rules. Rules that state when data is valid for your analysis. This approach is part of the `validate` package suite.
 
