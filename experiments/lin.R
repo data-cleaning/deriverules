@@ -23,3 +23,15 @@ summary(pca$x)
 library(fastICA)
 a <- fastICA(scale(dat), 2)
 a$A
+
+
+data("retailers", package="validate")
+retailers_num <- retailers[-(1:2)]
+ret <- retailers_num[complete.cases(retailers_num), ]
+
+pca <- prcomp(ret, scale. = TRUE)
+summary(pca)
+ica <- fastICA(scale(ret), 6)
+colnames(ica$A) <- colnames(ret)
+round(ica$A,1)
+names(retailers)
